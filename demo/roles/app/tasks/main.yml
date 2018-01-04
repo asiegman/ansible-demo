@@ -1,0 +1,7 @@
+---
+- name: Deploy app from repository
+  git:
+    repo: "{{ repository }}"
+    version: "{{ webapp_version }}"
+    dest: "{{ default_document_root }}"
+    ssh_opts: "-o StrictHostKeyChecking=no"

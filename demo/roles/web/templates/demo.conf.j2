@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+    # This will be the default host, don't set the ServerName
+    #ServerName www.example.com
+
+    ServerAdmin {{ default_admin_email }}
+    DocumentRoot {{ default_document_root }}
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+</VirtualHost>

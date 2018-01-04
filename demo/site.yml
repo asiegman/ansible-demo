@@ -1,0 +1,15 @@
+---
+# Apply common configuration to all hosts
+- hosts: ansible-demo
+  roles:
+    - common
+  tags:
+    - common
+
+# Configure and deploy web servers
+- hosts: ansible-demo-web
+  roles:
+    - web
+    - app
+  tags:
+    - web

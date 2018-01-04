@@ -1,0 +1,1017 @@
+{
+  "data": {
+    "droplets": [
+      {
+        "backup_ids": [], 
+        "created_at": "2015-07-01T19:03:36Z", 
+        "disk": 20, 
+        "features": [
+          "virtio"
+        ], 
+        "id": 5960420, 
+        "image": {
+          "created_at": "2015-06-09T10:29:16Z", 
+          "distribution": "Debian", 
+          "id": 12241402, 
+          "min_disk_size": 20, 
+          "name": "8.1 x64", 
+          "public": false, 
+          "regions": [
+            "nyc1", 
+            "ams1", 
+            "sfo1", 
+            "nyc2", 
+            "ams2", 
+            "sgp1", 
+            "lon1", 
+            "nyc3", 
+            "ams3", 
+            "fra1", 
+            "tor1", 
+            "sfo2", 
+            "blr1"
+          ], 
+          "size_gigabytes": 0.74, 
+          "slug": null, 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "eternalsovereign.net", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "104.236.64.1", 
+              "ip_address": "104.236.101.168", 
+              "netmask": "255.255.192.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "New York 3", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "c-32", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "nyc3"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }, 
+      {
+        "backup_ids": [], 
+        "created_at": "2015-09-04T02:08:42Z", 
+        "disk": 20, 
+        "features": [
+          "virtio"
+        ], 
+        "id": 7036637, 
+        "image": {
+          "created_at": "2015-07-16T18:49:14Z", 
+          "distribution": "Debian", 
+          "id": 12778278, 
+          "min_disk_size": 20, 
+          "name": "8.1 x64", 
+          "public": false, 
+          "regions": [
+            "nyc3"
+          ], 
+          "size_gigabytes": 0.71, 
+          "slug": null, 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "trmandigo", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "104.236.192.1", 
+              "ip_address": "104.236.201.56", 
+              "netmask": "255.255.192.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "New York 3", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "c-32", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "nyc3"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }, 
+      {
+        "backup_ids": [], 
+        "created_at": "2015-09-30T15:18:19Z", 
+        "disk": 20, 
+        "features": [
+          "virtio"
+        ], 
+        "id": 7956589, 
+        "image": {
+          "created_at": "2015-07-16T18:49:14Z", 
+          "distribution": "Debian", 
+          "id": 12778278, 
+          "min_disk_size": 20, 
+          "name": "8.1 x64", 
+          "public": false, 
+          "regions": [
+            "nyc3"
+          ], 
+          "size_gigabytes": 0.71, 
+          "slug": null, 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "alexsiegman.com", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "104.131.64.1", 
+              "ip_address": "104.131.108.228", 
+              "netmask": "255.255.192.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "New York 3", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "c-32", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "nyc3"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }, 
+      {
+        "backup_ids": [], 
+        "created_at": "2018-01-04T00:43:11Z", 
+        "disk": 20, 
+        "features": [], 
+        "id": 77480818, 
+        "image": {
+          "created_at": "2017-12-10T00:53:42Z", 
+          "distribution": "Ubuntu", 
+          "id": 29995409, 
+          "min_disk_size": 20, 
+          "name": "16.04.3 x64", 
+          "public": true, 
+          "regions": [
+            "nyc1", 
+            "sfo1", 
+            "nyc2", 
+            "ams2", 
+            "sgp1", 
+            "lon1", 
+            "nyc3", 
+            "ams3", 
+            "fra1", 
+            "tor1", 
+            "sfo2", 
+            "blr1"
+          ], 
+          "size_gigabytes": 0.3, 
+          "slug": "ubuntu-16-04-x64", 
+          "type": "snapshot"
+        }, 
+        "kernel": null, 
+        "locked": false, 
+        "memory": 512, 
+        "name": "demo-droplet", 
+        "networks": {
+          "v4": [
+            {
+              "gateway": "104.236.0.1", 
+              "ip_address": "104.236.54.170", 
+              "netmask": "255.255.192.0", 
+              "type": "public"
+            }
+          ], 
+          "v6": []
+        }, 
+        "next_backup_window": null, 
+        "region": {
+          "available": true, 
+          "features": [
+            "private_networking", 
+            "backups", 
+            "ipv6", 
+            "metadata", 
+            "install_agent", 
+            "storage"
+          ], 
+          "name": "New York 3", 
+          "sizes": [
+            "512mb", 
+            "1gb", 
+            "2gb", 
+            "s-1vcpu-3gb", 
+            "4gb", 
+            "c-2", 
+            "8gb", 
+            "m-1vcpu-8gb", 
+            "c-4", 
+            "16gb", 
+            "m-16gb", 
+            "c-8", 
+            "m-32gb", 
+            "32gb", 
+            "c-16", 
+            "48gb", 
+            "c-32", 
+            "64gb", 
+            "m-64gb", 
+            "m-128gb", 
+            "m-224gb"
+          ], 
+          "slug": "nyc3"
+        }, 
+        "size": {
+          "available": true, 
+          "disk": 20, 
+          "memory": 512, 
+          "price_hourly": 0.00744, 
+          "price_monthly": 5.0, 
+          "regions": [
+            "ams2", 
+            "ams3", 
+            "blr1", 
+            "fra1", 
+            "lon1", 
+            "nyc1", 
+            "nyc2", 
+            "nyc3", 
+            "sfo1", 
+            "sfo2", 
+            "sgp1", 
+            "tor1"
+          ], 
+          "slug": "512mb", 
+          "transfer": 1.0, 
+          "vcpus": 1
+        }, 
+        "size_slug": "512mb", 
+        "snapshot_ids": [], 
+        "status": "active", 
+        "tags": [
+          "ansible-demo"
+        ], 
+        "vcpus": 1, 
+        "volume_ids": []
+      }
+    ]
+  }, 
+  "inventory": {
+    "5960420": [
+      "104.236.101.168"
+    ], 
+    "7036637": [
+      "104.236.201.56"
+    ], 
+    "7956589": [
+      "104.131.108.228"
+    ], 
+    "77480818": [
+      "104.236.54.170"
+    ], 
+    "_meta": {
+      "hostvars": {
+        "104.131.108.228": {
+          "do_backup_ids": [], 
+          "do_created_at": "2015-09-30T15:18:19Z", 
+          "do_disk": 20, 
+          "do_features": [
+            "virtio"
+          ], 
+          "do_id": 7956589, 
+          "do_image": {
+            "created_at": "2015-07-16T18:49:14Z", 
+            "distribution": "Debian", 
+            "id": 12778278, 
+            "min_disk_size": 20, 
+            "name": "8.1 x64", 
+            "public": false, 
+            "regions": [
+              "nyc3"
+            ], 
+            "size_gigabytes": 0.71, 
+            "slug": null, 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "alexsiegman.com", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "104.131.64.1", 
+                "ip_address": "104.131.108.228", 
+                "netmask": "255.255.192.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "New York 3", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "c-32", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "nyc3"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }, 
+        "104.236.101.168": {
+          "do_backup_ids": [], 
+          "do_created_at": "2015-07-01T19:03:36Z", 
+          "do_disk": 20, 
+          "do_features": [
+            "virtio"
+          ], 
+          "do_id": 5960420, 
+          "do_image": {
+            "created_at": "2015-06-09T10:29:16Z", 
+            "distribution": "Debian", 
+            "id": 12241402, 
+            "min_disk_size": 20, 
+            "name": "8.1 x64", 
+            "public": false, 
+            "regions": [
+              "nyc1", 
+              "ams1", 
+              "sfo1", 
+              "nyc2", 
+              "ams2", 
+              "sgp1", 
+              "lon1", 
+              "nyc3", 
+              "ams3", 
+              "fra1", 
+              "tor1", 
+              "sfo2", 
+              "blr1"
+            ], 
+            "size_gigabytes": 0.74, 
+            "slug": null, 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "eternalsovereign.net", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "104.236.64.1", 
+                "ip_address": "104.236.101.168", 
+                "netmask": "255.255.192.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "New York 3", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "c-32", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "nyc3"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }, 
+        "104.236.201.56": {
+          "do_backup_ids": [], 
+          "do_created_at": "2015-09-04T02:08:42Z", 
+          "do_disk": 20, 
+          "do_features": [
+            "virtio"
+          ], 
+          "do_id": 7036637, 
+          "do_image": {
+            "created_at": "2015-07-16T18:49:14Z", 
+            "distribution": "Debian", 
+            "id": 12778278, 
+            "min_disk_size": 20, 
+            "name": "8.1 x64", 
+            "public": false, 
+            "regions": [
+              "nyc3"
+            ], 
+            "size_gigabytes": 0.71, 
+            "slug": null, 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "trmandigo", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "104.236.192.1", 
+                "ip_address": "104.236.201.56", 
+                "netmask": "255.255.192.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "New York 3", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "c-32", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "nyc3"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }, 
+        "104.236.54.170": {
+          "do_backup_ids": [], 
+          "do_created_at": "2018-01-04T00:43:11Z", 
+          "do_disk": 20, 
+          "do_features": [], 
+          "do_id": 77480818, 
+          "do_image": {
+            "created_at": "2017-12-10T00:53:42Z", 
+            "distribution": "Ubuntu", 
+            "id": 29995409, 
+            "min_disk_size": 20, 
+            "name": "16.04.3 x64", 
+            "public": true, 
+            "regions": [
+              "nyc1", 
+              "sfo1", 
+              "nyc2", 
+              "ams2", 
+              "sgp1", 
+              "lon1", 
+              "nyc3", 
+              "ams3", 
+              "fra1", 
+              "tor1", 
+              "sfo2", 
+              "blr1"
+            ], 
+            "size_gigabytes": 0.3, 
+            "slug": "ubuntu-16-04-x64", 
+            "type": "snapshot"
+          }, 
+          "do_kernel": null, 
+          "do_locked": false, 
+          "do_memory": 512, 
+          "do_name": "demo-droplet", 
+          "do_networks": {
+            "v4": [
+              {
+                "gateway": "104.236.0.1", 
+                "ip_address": "104.236.54.170", 
+                "netmask": "255.255.192.0", 
+                "type": "public"
+              }
+            ], 
+            "v6": []
+          }, 
+          "do_next_backup_window": null, 
+          "do_region": {
+            "available": true, 
+            "features": [
+              "private_networking", 
+              "backups", 
+              "ipv6", 
+              "metadata", 
+              "install_agent", 
+              "storage"
+            ], 
+            "name": "New York 3", 
+            "sizes": [
+              "512mb", 
+              "1gb", 
+              "2gb", 
+              "s-1vcpu-3gb", 
+              "4gb", 
+              "c-2", 
+              "8gb", 
+              "m-1vcpu-8gb", 
+              "c-4", 
+              "16gb", 
+              "m-16gb", 
+              "c-8", 
+              "m-32gb", 
+              "32gb", 
+              "c-16", 
+              "48gb", 
+              "c-32", 
+              "64gb", 
+              "m-64gb", 
+              "m-128gb", 
+              "m-224gb"
+            ], 
+            "slug": "nyc3"
+          }, 
+          "do_size": {
+            "available": true, 
+            "disk": 20, 
+            "memory": 512, 
+            "price_hourly": 0.00744, 
+            "price_monthly": 5.0, 
+            "regions": [
+              "ams2", 
+              "ams3", 
+              "blr1", 
+              "fra1", 
+              "lon1", 
+              "nyc1", 
+              "nyc2", 
+              "nyc3", 
+              "sfo1", 
+              "sfo2", 
+              "sgp1", 
+              "tor1"
+            ], 
+            "slug": "512mb", 
+            "transfer": 1.0, 
+            "vcpus": 1
+          }, 
+          "do_size_slug": "512mb", 
+          "do_snapshot_ids": [], 
+          "do_status": "active", 
+          "do_tags": [
+            "ansible-demo"
+          ], 
+          "do_vcpus": 1, 
+          "do_volume_ids": []
+        }
+      }
+    }, 
+    "alexsiegman.com": [
+      "104.131.108.228"
+    ], 
+    "all": {
+      "hosts": [
+        "104.236.101.168", 
+        "104.236.201.56", 
+        "104.131.108.228", 
+        "104.236.54.170"
+      ], 
+      "vars": {}
+    }, 
+    "ansible-demo": {
+      "hosts": [
+        "104.236.54.170"
+      ], 
+      "vars": {}
+    }, 
+    "demo-droplet": [
+      "104.236.54.170"
+    ], 
+    "distro_Debian": {
+      "hosts": [
+        "104.236.101.168", 
+        "104.236.201.56", 
+        "104.131.108.228"
+      ], 
+      "vars": {}
+    }, 
+    "distro_Ubuntu": {
+      "hosts": [
+        "104.236.54.170"
+      ], 
+      "vars": {}
+    }, 
+    "eternalsovereign.net": [
+      "104.236.101.168"
+    ], 
+    "image_12241402": {
+      "hosts": [
+        "104.236.101.168"
+      ], 
+      "vars": {}
+    }, 
+    "image_12778278": {
+      "hosts": [
+        "104.236.201.56", 
+        "104.131.108.228"
+      ], 
+      "vars": {}
+    }, 
+    "image_16.04.3_x64": {
+      "hosts": [
+        "104.236.54.170"
+      ], 
+      "vars": {}
+    }, 
+    "image_29995409": {
+      "hosts": [
+        "104.236.54.170"
+      ], 
+      "vars": {}
+    }, 
+    "image_8.1_x64": {
+      "hosts": [
+        "104.236.101.168", 
+        "104.236.201.56", 
+        "104.131.108.228"
+      ], 
+      "vars": {}
+    }, 
+    "image_ubuntu-16-04-x64": {
+      "hosts": [
+        "104.236.54.170"
+      ], 
+      "vars": {}
+    }, 
+    "region_nyc3": {
+      "hosts": [
+        "104.236.101.168", 
+        "104.236.201.56", 
+        "104.131.108.228", 
+        "104.236.54.170"
+      ], 
+      "vars": {}
+    }, 
+    "size_512mb": {
+      "hosts": [
+        "104.236.101.168", 
+        "104.236.201.56", 
+        "104.131.108.228", 
+        "104.236.54.170"
+      ], 
+      "vars": {}
+    }, 
+    "status_active": {
+      "hosts": [
+        "104.236.101.168", 
+        "104.236.201.56", 
+        "104.131.108.228", 
+        "104.236.54.170"
+      ], 
+      "vars": {}
+    }, 
+    "trmandigo": [
+      "104.236.201.56"
+    ]
+  }
+}

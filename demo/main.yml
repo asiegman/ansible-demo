@@ -1,0 +1,37 @@
+---
+
+- name: install apache
+  apt:
+    state: present
+    pkg: "{{ item }}"
+  with_items:
+    - apache2
+
+- name: remove default site
+  file:
+    state: absent
+    path: /etc/apache2/sites-enabled/000-default.conf
+  notify: reload apache
+
+- name: add our site config
+  template:
+    src: "{{ item + '.j2' }}"
+    dest: "/etc/apache2/sites-available/{{ item }}"
+  notify: reload apache
+  with_items:
+    - demo.conf
+
+- name: link our sites to enable them
+  file:
+    state: link
+    src: /etc/apache2/sites-available/{{ item }}
+    dest: /etc/apache2/sites-enabled/{{ item }}
+  notify: reload apache
+  with_items:
+    - demo.conf
+
+- name: ensure apache is enabled and started
+  service:
+    name: apache2
+    state: started
+    enabled: yes

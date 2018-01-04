@@ -1,0 +1,25 @@
+---
+# This playbook does a rolling update for all webservers serially (one at a time).
+# Change the value of serial: to adjust the number of server to be updated.
+#
+
+- hosts: ansible-demo-web
+  serial: 1
+
+  # These are the tasks to run before applying the roles:
+  pre_tasks:
+    - name: Pretasks go Here
+      debug:
+        msg: You might disable alerts here, or remove from a load balancer, or what have you
+
+  roles:
+    - app
+  ## Optionally, re-run other roles if you wanted
+  #- common
+  #- web
+
+  # These tasks run after the roles:
+  post_tasks:
+    - name: Post Tasks go here
+      debug:
+        msg: You could readd the instance to the loadbalancer here, or notify monitoring, or what have you

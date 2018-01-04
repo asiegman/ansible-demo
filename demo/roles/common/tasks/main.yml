@@ -1,0 +1,10 @@
+---
+
+- name: install common packages
+  apt:
+    state: present
+    pkg: "{{ item }}"
+  with_items:
+    - vim
+    - htop
+    - git
