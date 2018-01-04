@@ -1,0 +1,21 @@
+---
+# Apply common configuration to all hosts
+- hosts: ansible-demo
+  roles:
+    - common
+  tags:
+    - common
+
+- hosts: ansible-demo
+  roles:
+    - Datadog.datadog
+  vars:
+    datadog_api_key:
+
+# Configure and deploy web servers
+- hosts: ansible-demo-web
+  roles:
+    - web
+    - app
+  tags:
+    - web
