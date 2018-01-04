@@ -4,6 +4,6 @@ default_admin_email: webmaster@localhost
 default_document_root: /var/www/html/demo
 
 repository: https://github.com/asiegman/demo-app.git
-#webapp_version: eb1e7b7341c5c818991a8374be84413e126ca96d
-webapp_version: b1e11e95ab1d793937a0d0b57e3edd29cfa4dc69
+webapp_version: eb1e7b7341c5c818991a8374be84413e126ca96d
+#webapp_version: b1e11e95ab1d793937a0d0b57e3edd29cfa4dc69
 # webapp_version: b05e7e42b6219f4dd05949fc62ae79ddf6701eb2
