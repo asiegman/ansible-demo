@@ -69,10 +69,9 @@ To get a good idea of how it works, we'll run through some tasks:
 3. Inventory files and scripts
 4. Adhoc Commands
 5. Typical Site Layout
+6. Rolling Deploys
 
-Live demo's never fail, right?
-
-7. Example app / datadog integration
+Live demo time!
 
 ---
 
